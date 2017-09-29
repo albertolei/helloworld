@@ -4,12 +4,18 @@
 class Box
 {	
 private:
-	int width;
-	int height;
+	double width;
+	double height;
 public:
 	Box();
-	Box(int h, int w);
-	int area();
+	Box(double h, double w);
+	double getWidth();
+	void setWidth(double w);
+	double getHeight();
+	void setHeight(double h);
+
+
+	double area();
 };
 
 #endif
