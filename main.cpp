@@ -9,6 +9,12 @@ int main()
 	cout<<"height: "<<b1->getHeight()<<endl;
 	cout<<"width: "<<b1->getWidth()<<endl;
 	cout<<"area: "<<b1->area()<<endl;
+	//更改box的width为4.0，再重新输出长、宽、面积
+	b1->setWidth(4.0);
+	cout<<"height: "<<b1->getHeight()<<endl;
+	cout<<"width: "<<b1->getWidth()<<endl;
+	cout<<"area: "<<b1->area()<<endl;
+	
 	system("pause");
 	return 0;
 }
