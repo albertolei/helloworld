@@ -61,10 +61,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Box.h" />
+    <ClInclude Include="Ref.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Box.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Ref.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />

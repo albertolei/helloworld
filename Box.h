@@ -13,8 +13,6 @@ public:
 	void setWidth(double w);
 	double getHeight();
 	void setHeight(double h);
-
-
 	double area();
 };
 
