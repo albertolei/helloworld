@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Box.h"
 #include "Ref.h"
+#include "VecTES.h"
 using namespace std;
 
 int main()
@@ -21,7 +22,8 @@ int main()
 	//cout<<"width: "<<b1->getWidth()<<endl;
 	//cout<<"area: "<<b1->getWidth()<<endl;
 	//system("pause");
-	cppref();
+	//cppref();
+	stuVector();
 	system("pause");
 	return 0;
 }
