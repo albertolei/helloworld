@@ -24,6 +24,9 @@
     <ClInclude Include="VecTES.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="MapTES.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Box.cpp">
@@ -36,6 +39,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="VecTES.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTES.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -2,6 +2,7 @@
 #include "Box.h"
 #include "Ref.h"
 #include "VecTES.h"
+#include "MapTES.h"
 using namespace std;
 
 int main()
@@ -23,7 +24,8 @@ int main()
 	//cout<<"area: "<<b1->getWidth()<<endl;
 	//system("pause");
 	//cppref();
-	stuVector();
+	//stuVector();
+	stuMap();
 	system("pause");
 	return 0;
 }
