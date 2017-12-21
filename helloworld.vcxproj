@@ -65,6 +65,7 @@
     <ClInclude Include="Box.h" />
     <ClInclude Include="MapTES.h" />
     <ClInclude Include="Ref.h" />
+    <ClInclude Include="TesFunctionInStruct.h" />
     <ClInclude Include="VecTES.h" />
   </ItemGroup>
   <ItemGroup>
@@ -72,6 +73,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MapTES.cpp" />
     <ClCompile Include="Ref.cpp" />
+    <ClCompile Include="TesPrivateOutClass.cpp" />
     <ClCompile Include="VecTES.cpp" />
   </ItemGroup>
   <ItemGroup>
